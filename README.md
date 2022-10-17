@@ -42,7 +42,7 @@ UNIXes, but I doubt Linux comes with `major()` and `minor()` just hanging about 
 reason.
 
 The last change that I did was in `./stdio/buf.c`.
-The solution and full credit to the solution goes to JinshengStatham who provided a
+Full credit to the solution goes to JinshengStatham who provided a
 working solution to the problem, and it seems to come from the non-portability of 
 the code itself.
 
