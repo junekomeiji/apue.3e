@@ -25,7 +25,10 @@ becomes\
 `else
   LDCMD=$(CC) -shared -o libapue_db.so.1 -L$(ROOT)/lib -lapue -lc db.o`
  
-I'm not sure why my computer keep spitting out that there's disambiguity with the
+to remedy the error:\
+`/usr/bin/ld: Error: unable to disambiguate: -dylib (did you mean --dylib ?)`
+ 
+I'm not sure why my computer keep spitting out this error there's disambiguity with the
 argument of -dylib, and the only other piece of documentation seems to be a 
 Chinese BBS for the Beijing University of Posts and Telecommunications which
 requires me to sign in for an account. Not wanting to do that, I simply removed
